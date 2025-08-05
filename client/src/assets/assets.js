@@ -105,7 +105,7 @@ import Cake from "./Cake.png";
 import Sweet_Salty from "./Sweet_Salty.png";
 import Tea from "./Tea.png";
 import Coffee from "./Coffee.png";
-import green_Tea from "./green_Tea.png";
+import green_Tea from "./Green_Tea.png";
 import Milk_Drinks from "./Milk_Drink.png";
 import Hot_Chocolate from "./Hot_Chocolate.png";
 import Ketchup from "./Ketchup.png";
