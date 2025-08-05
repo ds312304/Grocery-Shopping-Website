@@ -106,7 +106,7 @@ export const placeOrderStripe = async (req, res,next) => {
         });
 
         // Stripe gateway initialize
-        const stripeInstance = Stripe(process.env.STRIPE_SECRET_KEY)
+        const stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY)
 
         //create line items for stripe
         const line_items = productData.map((item)=>{
