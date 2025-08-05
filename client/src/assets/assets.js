@@ -95,7 +95,7 @@ import Freshners from "./Freshners.png";
 import Detergent from "./Detergent.png";
 import Dishwashing from "./Dishwashing.png";
 import Accessories from "./Accessories.png";
-import Liquid_Detergents from "./Liquid_detergent.png";
+import Liquid_detergent from "./Liquid_detergent.png";
 import Cookies from "./Cookies.png";
 import Creame_Biscuit from "./Creame_Biscuit.png";
 import Glucose_Biscuit from "./Glucose_Biscuit.png";
@@ -951,7 +951,7 @@ export const categories = [
       },
       {
         name: "Liquid Detergents",
-        image: Liquid_Detergents,
+        image: Liquid_detergent,
         path: "liquid-detergents"
       },
     ]
