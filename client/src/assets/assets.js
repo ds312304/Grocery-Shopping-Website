@@ -88,7 +88,7 @@ import Popcorn from "./Popcorn.png";
 import Namkeen from "./Namkeen.png";
 import Makhana from "./Makhana.png";
 import Papad from "./Papad.png";
-import FLoor_Cleaner from "./FLoor_Cleaner.png";
+import Floor_Cleaner from "./Floor_Cleaner.png";
 import Toilet_Cleaner from "./Toilet_Cleaner.png";
 import Fabric_Conditioner from "./Fabric_Conditioners.png";
 import Freshners from "./Freshners.png";
@@ -916,7 +916,7 @@ export const categories = [
     subCategory: [
       {
         name: "Floor & Surface Cleaners",
-        image: FLoor_Cleaner,
+        image: Floor_Cleaner,
         path: "floor-cleaners"
       },
       {
