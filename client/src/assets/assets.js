@@ -124,7 +124,7 @@ import Instant_Mixes from "./Instant_Mixes.png";
 import Pasta from "./Pasta.png";
 import Flakes from "./Flakes.png";
 import Museli from "./Museli.png";
-import Oats from "./Oats.png";
+import Oats from "./oats.png";
 import Soup from "./Soup.png";
 import Ready_Eat from "./Ready_Eat.png";
 import Desert_Mixes from "./Desert_Mixes.png";
