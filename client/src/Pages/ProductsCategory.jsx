@@ -25,6 +25,10 @@ const ProductsCategory = () => {
         setFilteredProducts(allProducts);
     }, [products, category, subCategory])
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <div className="px-1 md:px-4 md:py-4 pt-2">
             {/* Title */}

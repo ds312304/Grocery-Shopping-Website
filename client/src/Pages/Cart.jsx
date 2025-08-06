@@ -86,6 +86,10 @@ const Cart = () => {
     }
     }, [products, cartItems, user])
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
 
 
     return products.length > 0 && Object.keys(cartItems).length > 0 ? (
