@@ -16,12 +16,12 @@ const ProductDetails = () => {
         if (products.length > 0) {
             let productCopy = products.slice();
             const related = productCopy.filter((item) => item.category === product.category && item._id !== product._id);
-            setRelatedProducts(related.slice(0, 5));
+            setRelatedProducts(related.slice(0, 8));
         }
     }, [product])
 
     useEffect(() => {
-        setThumbnail(product?.image[0] ? product?.image[0] : null);
+        setThumbnail(product?.image[0] || null);
     }, [product])
 
 
@@ -80,11 +80,14 @@ const ProductDetails = () => {
 
             {/* Related Products */}
             <div className='flex flex-col items-center mt-20'>
-                <div className='flex flex-col items-center w-max'>
+                <div className='flex flex-col items-center w-full px-2'>
                     <p className='text-3xl font-medium'>Related Products</p>
                     <div className='w-20 h-0.5 bg-primary rounded-full mt-2'></div>
-                    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-6 mt-6 w-full'>{relatedProducts.filter((product) => product.inStock).map((product, index) => (
-                        <ProductCard key={index} product={product} />
+                    <div className='flex overflow-x-auto no-scrollbar gap-4 mt-6 w-full'>{relatedProducts.filter((product) => product.inStock).map((product, index) => (
+                        <div key={index} className='min-w-[160px] max-w-[180px]w-full flex-shrink-0'>
+                            <ProductCard key={index} product={product} />
+                        </div>
+                        
                     ))}</div>
                 </div>
                 <button onClick={() => { navigate(`/products/${product.category}`); scrollTo(0, 0) }} className='mx-auto cursor-pointer px-12 my-16 py-2.5 border rounded text-primary hover:bg-primary/10 transition'>See More</button>
