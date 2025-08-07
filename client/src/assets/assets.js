@@ -94,7 +94,7 @@ import Freshners from "./Freshners.webp";
 import Detergent from "./Detergent.webp";
 import Dishwashing from "./Dishwashing.webp";
 import Accessories from "./Accessories.webp";
-import Liquid_detergent from "./Liquid_detergent.webp";
+import Liquid_detergent from "./Liquid_Detergent.webp";
 import Cookies from "./Cookies.webp";
 import Creame_Biscuit from "./Creame_Biscuit.webp";
 import Glucose_Biscuit from "./Glucose_Biscuit.webp";
