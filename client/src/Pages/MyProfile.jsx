@@ -118,7 +118,7 @@ const MyProfile = () => {
 
         {/* Left: Profile Info */}
         <div className="md:w-1/2 bg-white p-6 rounded-xl shadow-md space-y-6">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-wrap items-center justify-between gap-4">
             {isEdit ? (
               <input
                 className="text-3xl font-semibold text-gray-800 border-b border-gray-300 focus:outline-none"
@@ -133,7 +133,7 @@ const MyProfile = () => {
             {isEdit ? (
               <button
                 onClick={updateUserProfileData}
-                className="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-500 transition"
+                className="bg-yellow-500 text-white px-4 py-2 rounded-full hover:bg-yellow-500 transition sm:w-auto w-full"
               >
                 Save
               </button>

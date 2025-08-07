@@ -31,7 +31,7 @@ const NavBar = () => {
     }, [searchQuery])
 
     return (
-        <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
+        <nav className="sticky top-0 z-10 flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white transition-all">
 
             <NavLink to='/' onClick={() => setOpen(false)} className="hidden sm:block">
                 <img className="h-10 w-auto scale-400" src={assets.logo1} alt="logo" />

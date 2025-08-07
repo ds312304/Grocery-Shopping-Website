@@ -5,8 +5,6 @@ const connectDB = async () => {
     mongoose.set("strictQuery", true);
 
     await mongoose.connect(`${process.env.MONGODB_URI}/greenCart`, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
       serverSelectionTimeoutMS: 5000, // Wait up to 5s
       socketTimeoutMS: 45000,         // Socket timeout
     });
