@@ -120,12 +120,14 @@ const MyProfile = () => {
         <div className="md:w-1/2 bg-white p-6 rounded-xl shadow-md space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
             {isEdit ? (
-              <input
-                className="text-3xl font-semibold text-gray-800 border-b border-gray-300 focus:outline-none"
-                type="text"
-                value={userData.name}
-                onChange={e => setUserData(prev => ({ ...prev, name: e.target.value }))}
-              />
+              <div className="flex-1 max-w-[300px]">
+                <input
+                  className="text-3xl font-semibold text-gray-800 border-b border-gray-300 focus:outline-none w-full"
+                  type="text"
+                  value={userData.name}
+                  onChange={e => setUserData(prev => ({ ...prev, name: e.target.value }))}
+                />
+              </div>
             ) : (
               <h1 className="text-3xl font-semibold text-gray-800">{userData.name}</h1>
             )}

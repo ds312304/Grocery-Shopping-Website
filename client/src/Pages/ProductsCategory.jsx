@@ -59,7 +59,7 @@ const ProductsCategory = () => {
                                 alt={item.name}
                                 className="w-12 h-12 object-cover rounded-md mb-1"
                             />
-                            <div className="w-full text-center text-xs break-words">{item.name}</div>
+                            <div className="w-full text-center text-[12px] leading-tight break-words max-w-[72px] overflow-hidden text-ellipsis line-clamp-2">{item.name}</div>
 
                             {subCategory === item.path && (
                                 <div className="hidden md:block absolute bottom-0 w-14 h-1 bg-green-800 rounded-full"></div>
