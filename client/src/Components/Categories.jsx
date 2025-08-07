@@ -19,7 +19,7 @@ const Categories = () => {
                         }}>
                         <div className='group rounded-2xl flex justify-center items-center w-full bg-[#EFFFE8]'>
 
-                        <img className='group-hover:scale-110 transition max-w-28'
+                        <img loading="lazy" className='group-hover:scale-110 transition max-w-28'
                             src={category.image} alt={category.text} />
                         </div>
 
