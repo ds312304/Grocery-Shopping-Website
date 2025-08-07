@@ -44,7 +44,7 @@ const ProductsCategory = () => {
             {/* Main layout */}
             <div className="flex gap-4 flex-col md:flex-row md:h-[75vh]">
                 {/* Left Sidebar: Subcategories */}
-                <div className="md:w-23 w-full md:h-auto flex md:flex-col gap-2 overflow-x-auto overflow-y-hidden md:overflow-y-auto md:overflow-x-hidden pb-2 md:pr-2 no-scrollbar border-b md:border-b-0 md:border-r border-gray-300 mb-2 md:mb-0 sticky top-[94px] z-20 bg-white">
+                <div className="md:w-23 w-full md:h-auto flex md:flex-col gap-2 overflow-x-auto overflow-y-hidden md:overflow-y-auto md:overflow-x-hidden pb-2 md:pr-2 sm:no-scrollbar border-b md:border-b-0 md:border-r border-gray-300 mb-2 md:mb-0 sticky top-[94px] z-20 bg-white">
                     {subCategories.map((item, index) => (
                         <div
                             key={index}

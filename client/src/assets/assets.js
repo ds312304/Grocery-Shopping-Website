@@ -459,42 +459,42 @@ export const categories = [
       {
         name: "Chips & Crisps",
         image: Chips,
-        path: ""
+        path: "chips"
       },
       {
         name: "Nachos",
         image: Nachos,
-        path: ""
+        path: "nachos"
       },
       {
         name: "Energy Bars",
         image: Energy_Bars,
-        path: ""
+        path: "energy-bars"
       },
       {
         name: "Bhujiya & Mixtures",
         image: Bhujiya,
-        path: ""
+        path: "bhujiya"
       },
       {
         name: "Popcorn",
         image: Popcorn,
-        path: ""
+        path: "popcorn"
       },
       {
         name: "Namkeen Snacks",
         image: Namkeen,
-        path: ""
+        path: "namkeen"
       },
       {
         name: "Makhana & More",
         image: Makhana,
-        path: ""
+        path: "makhana"
       },
       {
         name: "Papad & Fryums",
         image: Papad,
-        path: ""
+        path: "papad"
       },
     ]
   },
